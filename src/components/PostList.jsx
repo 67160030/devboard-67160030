@@ -1,5 +1,6 @@
 import { useState } from "react";
 import PostCard from "./PostCard";
+import PostCount from "./PostCount";
 
 function PostList({ posts, favorites, onToggleFavorite }) {
   const [search, setSearch] = useState("");
@@ -20,6 +21,8 @@ function PostList({ posts, favorites, onToggleFavorite }) {
       >
         โพสต์ล่าสุด
       </h2>
+
+      <PostCount count={posts.length} />
 
       {/* Search Input */}
       <input
