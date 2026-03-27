@@ -65,7 +65,7 @@ function PostList({ favorites, onToggleFavorite }) {
       >
         <h2
           style={{
-            color: "#2d3748",
+            color: "#ffffff",
             borderBottom: "2px solid #1e40af",
             paddingBottom: "0.5rem",
           }}
