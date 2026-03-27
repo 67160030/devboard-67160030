@@ -1,5 +1,9 @@
 function PostCount({ count }) {
-  return <div>โพสต์ทั้งหมด: {count} รายการ</div>;
+  return (
+    <p style={{ color: "#4a5568", marginBottom: "1rem" }}>
+      โพสต์ทั้งหมด: {count} รายการ
+    </p>
+  );
 }
 
 export default PostCount;
